@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.7.4  Built on : Oct 21, 2016 (10:47:34 BST) --><serviceGroup>
+    <service name="Webservices.nl">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="nl.webservices.soap.WebservicesNlMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">nl.webservices.soap.WebservicesNlSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="dutchBusinessGetExtractHistory" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistory</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractHistoryResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterEigendomsBerichtDocumentPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtDocumentPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterEigendomsBerichtDocumentPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="vatViesProxyCheckVat" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/vatViesProxyCheckVat</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/vatViesProxyCheckVatResponse</outputActionMapping>
+        </operation>
+        <operation name="dnbSearchReference" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbSearchReference</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbSearchReferenceResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerDescriptionCoordinatesRD" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerDescriptionCoordinatesRD</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerDescriptionCoordinatesRDResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchVehicleGetOwnerHistory" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetOwnerHistory</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchVehicleGetOwnerHistoryResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterKadastraleKaartPerceel" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPerceel</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterKadastraleKaartPerceelResponse</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarDataV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarDataV2Response</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarDataV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarDataV3Response</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetLegalEntity" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetLegalEntity</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetLegalEntityResponse</outputActionMapping>
+        </operation>
+        <operation name="businessUpdateRemoveDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessUpdateRemoveDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessUpdateRemoveDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerRDInformation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerRDInformation</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerRDInformationResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessUpdateCheckDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateCheckDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessUpdateCheckDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="addressReeksPostcodeSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressReeksPostcodeSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressReeksPostcodeSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkGetDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkGetDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkGetDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditQuickscan" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditQuickscan</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditQuickscanResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkUpdateGetChangedDossiers" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkUpdateGetChangedDossiers</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkUpdateGetChangedDossiersResponse</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarDataPrice" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataPrice</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarDataPriceResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessUpdateRemoveDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateRemoveDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessUpdateRemoveDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="carVWEListBrands" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEListBrands</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEListBrandsResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetSBIDescription" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetSBIDescription</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetSBIDescriptionResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterEigendomsBerichtDocumentPerceel" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtDocumentPerceel</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterEigendomsBerichtDocumentPerceelResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractHistoryDocumentDataV3ByDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV3ByDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractHistoryDocumentDataV3ByDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="creditsafeGetReportFull" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/creditsafeGetReportFull</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/creditsafeGetReportFullResponse</outputActionMapping>
+        </operation>
+        <operation name="userSessionRemove" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userSessionRemove</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userSessionRemoveResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerEUDescriptionCoordinatesLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerEUDescriptionCoordinatesLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerEUDescriptionCoordinatesLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="driveInfoDistanceLookup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/driveInfoDistanceLookup</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/driveInfoDistanceLookupResponse</outputActionMapping>
+        </operation>
+        <operation name="userEditV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userEditV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userEditV2Response</outputActionMapping>
+        </operation>
+        <operation name="businessSearchName" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchName</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchNameResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerDescriptionShortest" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerDescriptionShortest</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerDescriptionShortestResponse</outputActionMapping>
+        </operation>
+        <operation name="addressPerceelPhraseSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressPerceelPhraseSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressPerceelPhraseSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationInternationalLatLonToAddress" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationInternationalLatLonToAddress</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationInternationalLatLonToAddressResponse</outputActionMapping>
+        </operation>
+        <operation name="addressReeksAddressSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressReeksAddressSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressReeksAddressSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="addressReeksFullParameterSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressReeksFullParameterSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressReeksFullParameterSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="accountEditV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountEditV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountEditV2Response</outputActionMapping>
+        </operation>
+        <operation name="kadasterKoopsommenOverzicht" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterKoopsommenOverzicht</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterKoopsommenOverzichtResponse</outputActionMapping>
+        </operation>
+        <operation name="areaCodePostcodeLookup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/areaCodePostcodeLookup</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/areaCodePostcodeLookupResponse</outputActionMapping>
+        </operation>
+        <operation name="addressProvinceListDistricts" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressProvinceListDistricts</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressProvinceListDistrictsResponse</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditSearchIdentification" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditSearchIdentification</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditSearchIdentificationResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterHypothecairBerichtPerceel" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceel</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterHypothecairBerichtPerceelResponse</outputActionMapping>
+        </operation>
+        <operation name="carVWEVersionYearData" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEVersionYearData</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEVersionYearDataResponse</outputActionMapping>
+        </operation>
+        <operation name="sepaValidateInternationalBankAccountNumberFormat" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/sepaValidateInternationalBankAccountNumberFormat</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/sepaValidateInternationalBankAccountNumberFormatResponse</outputActionMapping>
+        </operation>
+        <operation name="accountEditHostRestrictions" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountEditHostRestrictions</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountEditHostRestrictionsResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationDistanceSortedNeighborhoodCodes" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationDistanceSortedNeighborhoodCodes</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationDistanceSortedNeighborhoodCodesResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchVehicleGetVehicleV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetVehicleV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchVehicleGetVehicleV2Response</outputActionMapping>
+        </operation>
+        <operation name="riskCheckGetRiskPersonCompanyReport" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/riskCheckGetRiskPersonCompanyReport</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/riskCheckGetRiskPersonCompanyReportResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetDossierHistory" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetDossierHistory</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetDossierHistoryResponse</outputActionMapping>
+        </operation>
+        <operation name="dnbEnterpriseManagement" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbEnterpriseManagement</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbEnterpriseManagementResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetOrganizationTree" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetOrganizationTree</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetOrganizationTreeResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterEigendomsBerichtPerceelV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPerceelV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterEigendomsBerichtPerceelV2Response</outputActionMapping>
+        </operation>
+        <operation name="carVWEPhotos" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEPhotos</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEPhotosResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterValueListGetRanges" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterValueListGetRanges</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterValueListGetRangesResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchAddressRangePostcodeSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchAddressRangePostcodeSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchAddressRangePostcodeSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="carVWEListVersions" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEListVersions</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEListVersionsResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationLatLonToAddressV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationLatLonToAddressV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationLatLonToAddressV2Response</outputActionMapping>
+        </operation>
+        <operation name="areaCodeToNeighborhoodcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/areaCodeToNeighborhoodcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/areaCodeToNeighborhoodcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="accountGetCreationToken" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountGetCreationToken</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountGetCreationTokenResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessSearchSelection" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchSelection</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessSearchSelectionResponse</outputActionMapping>
+        </operation>
+        <operation name="edrGetScore" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/edrGetScore</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/edrGetScoreResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessSearchParametersV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchParametersV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessSearchParametersV2Response</outputActionMapping>
+        </operation>
+        <operation name="metaGetMethod" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/metaGetMethod</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/metaGetMethodResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationLatLonToRD" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationLatLonToRD</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationLatLonToRDResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerEUDescription" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerEUDescription</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerEUDescriptionResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationLatLonToPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationLatLonToPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationLatLonToPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="dnbBusinessVerification" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbBusinessVerification</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbBusinessVerificationResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterKadastraleKaartPerceelV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPerceelV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterKadastraleKaartPerceelV2Response</outputActionMapping>
+        </operation>
+        <operation name="businessSearchAddress" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchAddress</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchAddressResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractHistoryDocumentData" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentData</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractHistoryDocumentDataResponse</outputActionMapping>
+        </operation>
+        <operation name="nbwoEstimateValue" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/nbwoEstimateValue</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/nbwoEstimateValueResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkUpdateRemoveDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkUpdateRemoveDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkUpdateRemoveDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="logout" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/logout</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/logoutResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerGetRoute" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerGetRoute</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerGetRouteResponse</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarCheckCode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarCheckCode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarCheckCodeResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkGetExtractDocument" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkGetExtractDocument</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkGetExtractDocumentResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractHistoryChanged" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryChanged</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractHistoryChangedResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationNeighborhoodCoordinatesRD" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationNeighborhoodCoordinatesRD</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationNeighborhoodCoordinatesRDResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterKadastraleKaartPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterKadastraleKaartPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="businessUpdateGetDossiers" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessUpdateGetDossiers</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessUpdateGetDossiersResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerInformationDutchAddress" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerInformationDutchAddress</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerInformationDutchAddressResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationNeighborhoodCoordinatesLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationNeighborhoodCoordinatesLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationNeighborhoodCoordinatesLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="accountUserSearchV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountUserSearchV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountUserSearchV2Response</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditRatings" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditRatings</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditRatingsResponse</outputActionMapping>
+        </operation>
+        <operation name="userCreateV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userCreateV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userCreateV2Response</outputActionMapping>
+        </operation>
+        <operation name="userEditExtendedV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userEditExtendedV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userEditExtendedV2Response</outputActionMapping>
+        </operation>
+        <operation name="userViewHostRestrictions" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userViewHostRestrictions</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userViewHostRestrictionsResponse</outputActionMapping>
+        </operation>
+        <operation name="carVWEVersionPrice" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEVersionPrice</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEVersionPriceResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchVehicleGetMarketValue" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetMarketValue</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchVehicleGetMarketValueResponse</outputActionMapping>
+        </operation>
+        <operation name="riskCheckPerson" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/riskCheckPerson</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/riskCheckPersonResponse</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditCompanyLiaisons" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditCompanyLiaisons</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditCompanyLiaisonsResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessUpdateGetOverview" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetOverview</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessUpdateGetOverviewResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetPositions" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetPositions</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetPositionsResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterUittrekselKadastraleKaartPerceelV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceelV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterUittrekselKadastraleKaartPerceelV2Response</outputActionMapping>
+        </operation>
+        <operation name="kadasterUittrekselKadastraleKaartPerceelV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceelV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterUittrekselKadastraleKaartPerceelV3Response</outputActionMapping>
+        </operation>
+        <operation name="userSessionList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userSessionList</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userSessionListResponse</outputActionMapping>
+        </operation>
+        <operation name="login" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/login</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/loginResponse</outputActionMapping>
+        </operation>
+        <operation name="metaGetService" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/metaGetService</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/metaGetServiceResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchVehicleGetVehicle" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetVehicle</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchVehicleGetVehicleResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationNeighborhoodDistance" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationNeighborhoodDistance</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationNeighborhoodDistanceResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterHypothecairBerichtPerceelV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceelV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterHypothecairBerichtPerceelV3Response</outputActionMapping>
+        </operation>
+        <operation name="kadasterHypothecairBerichtPerceelV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceelV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterHypothecairBerichtPerceelV2Response</outputActionMapping>
+        </operation>
+        <operation name="businessSearchPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractDocumentDataV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentDataV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractDocumentDataV3Response</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractDocumentDataV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentDataV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractDocumentDataV2Response</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractDocument" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocument</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractDocumentResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationPostcodeDistance" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationPostcodeDistance</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationPostcodeDistanceResponse</outputActionMapping>
+        </operation>
+        <operation name="businessUpdateGetChangedDossiers" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessUpdateGetChangedDossiers</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessUpdateGetChangedDossiersResponse</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarDataExtended" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataExtended</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarDataExtendedResponse</outputActionMapping>
+        </operation>
+        <operation name="accountViewHostRestrictions" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountViewHostRestrictions</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountViewHostRestrictionsResponse</outputActionMapping>
+        </operation>
+        <operation name="businessGetEstablishmentNumber" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessGetEstablishmentNumber</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessGetEstablishmentNumberResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterUittrekselKadastraleKaartPostcodeV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcodeV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterUittrekselKadastraleKaartPostcodeV2Response</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarDataBP" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataBP</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarDataBPResponse</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditVatNumber" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditVatNumber</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditVatNumberResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterEigendomsBerichtPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterEigendomsBerichtPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterUittrekselKadastraleKaartPostcodeV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcodeV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterUittrekselKadastraleKaartPostcodeV3Response</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessSearchEstablishments" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchEstablishments</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessSearchEstablishmentsResponse</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditManagement" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditManagement</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditManagementResponse</outputActionMapping>
+        </operation>
+        <operation name="carVWEListModels" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEListModels</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEListModelsResponse</outputActionMapping>
+        </operation>
+        <operation name="addressPerceelFullParameterSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressPerceelFullParameterSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressPerceelFullParameterSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="bovagGetMemberByDutchBusiness" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/bovagGetMemberByDutchBusiness</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/bovagGetMemberByDutchBusinessResponse</outputActionMapping>
+        </operation>
+        <operation name="insolvencySearchPublicationsByPerson" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/insolvencySearchPublicationsByPerson</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/insolvencySearchPublicationsByPersonResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationDistanceSortedPostcodes" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationDistanceSortedPostcodes</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationDistanceSortedPostcodesResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationRDToLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationRDToLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationRDToLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationHaversineDistance" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationHaversineDistance</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationHaversineDistanceResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerRDDescription" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerRDDescription</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerRDDescriptionResponse</outputActionMapping>
+        </operation>
+        <operation name="carVWEMeldcodeCheck" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEMeldcodeCheck</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEMeldcodeCheckResponse</outputActionMapping>
+        </operation>
+        <operation name="userEditBalance" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userEditBalance</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userEditBalanceResponse</outputActionMapping>
+        </operation>
+        <operation name="internationalAddressSearchInteractive" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/internationalAddressSearchInteractive</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/internationalAddressSearchInteractiveResponse</outputActionMapping>
+        </operation>
+        <operation name="addressDistrictSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressDistrictSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressDistrictSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="addressDistrictListCities" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressDistrictListCities</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressDistrictListCitiesResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationPostcodeCoordinatesLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationPostcodeCoordinatesLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationPostcodeCoordinatesLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="bovagGetMemberByBovagId" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/bovagGetMemberByBovagId</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/bovagGetMemberByBovagIdResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationRDToAddressV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationRDToAddressV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationRDToAddressV2Response</outputActionMapping>
+        </operation>
+        <operation name="metaGetServices" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/metaGetServices</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/metaGetServicesResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationDistanceSortedNeighborhoodCodesRadius" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationDistanceSortedNeighborhoodCodesRadius</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationDistanceSortedNeighborhoodCodesRadiusResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterKadastraleKaartPostcodeV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPostcodeV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterKadastraleKaartPostcodeV2Response</outputActionMapping>
+        </operation>
+        <operation name="addressProvinceList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressProvinceList</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressProvinceListResponse</outputActionMapping>
+        </operation>
+        <operation name="businessUpdateCheckDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessUpdateCheckDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessUpdateCheckDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="accountGetCreationStatus" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountGetCreationStatus</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountGetCreationStatusResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationDistanceSortedPostcodesRadius" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationDistanceSortedPostcodesRadius</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationDistanceSortedPostcodesRadiusResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationRDToPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationRDToPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationRDToPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="addressCityListNeighborhoods" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressCityListNeighborhoods</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressCityListNeighborhoodsResponse</outputActionMapping>
+        </operation>
+        <operation name="insolvencyGetCaseByPublication" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/insolvencyGetCaseByPublication</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/insolvencyGetCaseByPublicationResponse</outputActionMapping>
+        </operation>
+        <operation name="businessSearchSelectionV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchSelectionV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchSelectionV2Response</outputActionMapping>
+        </operation>
+        <operation name="dnbWorldbaseMarketingPlus" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbWorldbaseMarketingPlus</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbWorldbaseMarketingPlusResponse</outputActionMapping>
+        </operation>
+        <operation name="userListAssignableGroups" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userListAssignableGroups</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userListAssignableGroupsResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessSearchPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessSearchPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessSearchDossierNumber" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchDossierNumber</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessSearchDossierNumberResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterEigendomsBerichtPostcodeV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPostcodeV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterEigendomsBerichtPostcodeV2Response</outputActionMapping>
+        </operation>
+        <operation name="addressProvinceSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressProvinceSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressProvinceSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessUpdateAddDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateAddDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessUpdateAddDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="accountUserListV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountUserListV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountUserListV2Response</outputActionMapping>
+        </operation>
+        <operation name="businessGetSBIDescription" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessGetSBIDescription</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessGetSBIDescriptionResponse</outputActionMapping>
+        </operation>
+        <operation name="internationalAddressSearchV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/internationalAddressSearchV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/internationalAddressSearchV2Response</outputActionMapping>
+        </operation>
+        <operation name="geoLocationInternationalAddressCoordinatesLatLonV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationInternationalAddressCoordinatesLatLonV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationInternationalAddressCoordinatesLatLonV2Response</outputActionMapping>
+        </operation>
+        <operation name="addressNeighborhoodPhraseSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressNeighborhoodPhraseSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressNeighborhoodPhraseSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="businessSearchDossierNumber" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchDossierNumber</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchDossierNumberResponse</outputActionMapping>
+        </operation>
+        <operation name="addressNeighborhoodName" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressNeighborhoodName</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressNeighborhoodNameResponse</outputActionMapping>
+        </operation>
+        <operation name="userViewV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userViewV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userViewV2Response</outputActionMapping>
+        </operation>
+        <operation name="kadasterKoopsommenOverzichtV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterKoopsommenOverzichtV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterKoopsommenOverzichtV2Response</outputActionMapping>
+        </operation>
+        <operation name="addressPerceelFullParameterSearchV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressPerceelFullParameterSearchV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressPerceelFullParameterSearchV2Response</outputActionMapping>
+        </operation>
+        <operation name="geoLocationInternationalPostcodeCoordinatesLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationInternationalPostcodeCoordinatesLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationInternationalPostcodeCoordinatesLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="userEditHostRestrictions" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userEditHostRestrictions</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userEditHostRestrictionsResponse</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarDataOptions" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataOptions</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarDataOptionsResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerDescriptionAddress" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerDescriptionAddress</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerDescriptionAddressResponse</outputActionMapping>
+        </operation>
+        <operation name="userRemoveGroup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userRemoveGroup</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userRemoveGroupResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractHistoryDocumentDataV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractHistoryDocumentDataV2Response</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractHistoryDocumentDataV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractHistoryDocumentDataV3Response</outputActionMapping>
+        </operation>
+        <operation name="kadasterBronDocument" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterBronDocument</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterBronDocumentResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterUittrekselKadastraleKaartPerceel" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceel</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterUittrekselKadastraleKaartPerceelResponse</outputActionMapping>
+        </operation>
+        <operation name="userNotify" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userNotify</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userNotifyResponse</outputActionMapping>
+        </operation>
+        <operation name="addressReeksParameterSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressReeksParameterSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressReeksParameterSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationPostcodeCoordinatesRD" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationPostcodeCoordinatesRD</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationPostcodeCoordinatesRDResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerInformationAddress" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerInformationAddress</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerInformationAddressResponse</outputActionMapping>
+        </operation>
+        <operation name="areaCodeLookup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/areaCodeLookup</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/areaCodeLookupResponse</outputActionMapping>
+        </operation>
+        <operation name="dnbWorldbaseMarketing" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbWorldbaseMarketing</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbWorldbaseMarketingResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterHypothecairBerichtPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterHypothecairBerichtPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationInternationalAddressCoordinatesLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationInternationalAddressCoordinatesLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationInternationalAddressCoordinatesLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessSearchParameters" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchParameters</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessSearchParametersResponse</outputActionMapping>
+        </operation>
+        <operation name="userViewBalance" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userViewBalance</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userViewBalanceResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessUpdateGetChangedDossiers" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetChangedDossiers</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessUpdateGetChangedDossiersResponse</outputActionMapping>
+        </operation>
+        <operation name="businessUpdateAddDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessUpdateAddDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessUpdateAddDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerDescription" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerDescription</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerDescriptionResponse</outputActionMapping>
+        </operation>
+        <operation name="dnbGetReference" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbGetReference</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbGetReferenceResponse</outputActionMapping>
+        </operation>
+        <operation name="mapViewRD" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/mapViewRD</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/mapViewRDResponse</outputActionMapping>
+        </operation>
+        <operation name="businessBIKToSBI" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessBIKToSBI</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessBIKToSBIResponse</outputActionMapping>
+        </operation>
+        <operation name="carVWEBasicTypeData" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEBasicTypeData</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEBasicTypeDataResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterAddressCoordinates" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterAddressCoordinates</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterAddressCoordinatesResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterHypothecairBerichtPostcodeV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcodeV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterHypothecairBerichtPostcodeV3Response</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditSearchName" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditSearchName</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditSearchNameResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerInformation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerInformation</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerInformationResponse</outputActionMapping>
+        </operation>
+        <operation name="creditsafeMonitorAddCompany" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/creditsafeMonitorAddCompany</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/creditsafeMonitorAddCompanyResponse</outputActionMapping>
+        </operation>
+        <operation name="insolvencySearchPublicationsByCoCNumber" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/insolvencySearchPublicationsByCoCNumber</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/insolvencySearchPublicationsByCoCNumberResponse</outputActionMapping>
+        </operation>
+        <operation name="accountGetOrderToken" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountGetOrderToken</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountGetOrderTokenResponse</outputActionMapping>
+        </operation>
+        <operation name="businessSBIToBIK" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSBIToBIK</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSBIToBIKResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetExtractDocumentData" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentData</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetExtractDocumentDataResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterHypothecairBerichtPostcodeV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcodeV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterHypothecairBerichtPostcodeV2Response</outputActionMapping>
+        </operation>
+        <operation name="userChangePassword" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userChangePassword</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userChangePasswordResponse</outputActionMapping>
+        </operation>
+        <operation name="carVWEOptions" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carVWEOptions</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carVWEOptionsResponse</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditSearchPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditSearchPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditSearchPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationAddressCoordinatesRD" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationAddressCoordinatesRD</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationAddressCoordinatesRDResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerRDDescriptionCoordinatesRD" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerRDDescriptionCoordinatesRD</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerRDDescriptionCoordinatesRDResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkUpdateGetDossiers" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkUpdateGetDossiers</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkUpdateGetDossiersResponse</outputActionMapping>
+        </operation>
+        <operation name="addressDistrictListNeighborhoods" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressDistrictListNeighborhoods</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressDistrictListNeighborhoodsResponse</outputActionMapping>
+        </operation>
+        <operation name="businessGetDossierV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessGetDossierV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessGetDossierV3Response</outputActionMapping>
+        </operation>
+        <operation name="businessGetBIKDescription" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessGetBIKDescription</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessGetBIKDescriptionResponse</outputActionMapping>
+        </operation>
+        <operation name="sepaConvertBasicBankAccountNumber" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/sepaConvertBasicBankAccountNumber</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/sepaConvertBasicBankAccountNumberResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterUittrekselKadastraleKaartPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterUittrekselKadastraleKaartPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterValueListGetMunicipalities" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterValueListGetMunicipalities</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterValueListGetMunicipalitiesResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerEUInformation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerEUInformation</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerEUInformationResponse</outputActionMapping>
+        </operation>
+        <operation name="businessSearchParameters" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchParameters</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchParametersResponse</outputActionMapping>
+        </operation>
+        <operation name="addressProvinceListNeighborhoods" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressProvinceListNeighborhoods</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressProvinceListNeighborhoodsResponse</outputActionMapping>
+        </operation>
+        <operation name="businessGetDossierSBI" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessGetDossierSBI</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessGetDossierSBIResponse</outputActionMapping>
+        </operation>
+        <operation name="accountViewV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountViewV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountViewV2Response</outputActionMapping>
+        </operation>
+        <operation name="createTestUser" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/createTestUser</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/createTestUserResponse</outputActionMapping>
+        </operation>
+        <operation name="vatValidate" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/vatValidate</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/vatValidateResponse</outputActionMapping>
+        </operation>
+        <operation name="dnbQuickCheck" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbQuickCheck</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbQuickCheckResponse</outputActionMapping>
+        </operation>
+        <operation name="carATDPrice" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carATDPrice</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carATDPriceResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetDossierV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetDossierV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetDossierV2Response</outputActionMapping>
+        </operation>
+        <operation name="mapViewInternationalLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/mapViewInternationalLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/mapViewInternationalLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="dnbSearchReferenceV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbSearchReferenceV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbSearchReferenceV2Response</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetDossierV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetDossierV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetDossierV3Response</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessUpdateGetDossiers" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetDossiers</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessUpdateGetDossiersResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkSearchPostcode" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkSearchPostcode</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkSearchPostcodeResponse</outputActionMapping>
+        </operation>
+        <operation name="addressPerceelParameterSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressPerceelParameterSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressPerceelParameterSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarDataBPV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataBPV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarDataBPV2Response</outputActionMapping>
+        </operation>
+        <operation name="routePlannerEUMap" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerEUMap</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerEUMapResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkSearchParameters" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkSearchParameters</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkSearchParametersResponse</outputActionMapping>
+        </operation>
+        <operation name="businessSearchParametersV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchParametersV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchParametersV3Response</outputActionMapping>
+        </operation>
+        <operation name="businessSearchParametersV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchParametersV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchParametersV2Response</outputActionMapping>
+        </operation>
+        <operation name="driveInfoTimeLookup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/driveInfoTimeLookup</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/driveInfoTimeLookupResponse</outputActionMapping>
+        </operation>
+        <operation name="routePlannerDescriptionDutchAddress" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/routePlannerDescriptionDutchAddress</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/routePlannerDescriptionDutchAddressResponse</outputActionMapping>
+        </operation>
+        <operation name="addressCitySearchV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressCitySearchV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressCitySearchV2Response</outputActionMapping>
+        </operation>
+        <operation name="kvkUpdateAddDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkUpdateAddDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkUpdateAddDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="accountViewBalance" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/accountViewBalance</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/accountViewBalanceResponse</outputActionMapping>
+        </operation>
+        <operation name="businessSearchSelection" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessSearchSelection</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessSearchSelectionResponse</outputActionMapping>
+        </operation>
+        <operation name="dnbWorldbaseMarketingPlusLinkage" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dnbWorldbaseMarketingPlusLinkage</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dnbWorldbaseMarketingPlusLinkageResponse</outputActionMapping>
+        </operation>
+        <operation name="creditsafeMonitorGetUpdatedCompanies" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/creditsafeMonitorGetUpdatedCompanies</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/creditsafeMonitorGetUpdatedCompaniesResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkSearchSelection" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkSearchSelection</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkSearchSelectionResponse</outputActionMapping>
+        </operation>
+        <operation name="businessGetDossierExtended" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/businessGetDossierExtended</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/businessGetDossierExtendedResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetVatNumber" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetVatNumber</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetVatNumberResponse</outputActionMapping>
+        </operation>
+        <operation name="kvkUpdateCheckDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkUpdateCheckDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkUpdateCheckDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="mapViewLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/mapViewLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/mapViewLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetDossier" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetDossier</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetDossierResponse</outputActionMapping>
+        </operation>
+        <operation name="graydonCreditGetReport" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/graydonCreditGetReport</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/graydonCreditGetReportResponse</outputActionMapping>
+        </operation>
+        <operation name="creditsafeMonitorRemoveCompany" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/creditsafeMonitorRemoveCompany</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/creditsafeMonitorRemoveCompanyResponse</outputActionMapping>
+        </operation>
+        <operation name="creditsafeSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/creditsafeSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/creditsafeSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchVehicleGetPurchaseReference" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetPurchaseReference</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchVehicleGetPurchaseReferenceResponse</outputActionMapping>
+        </operation>
+        <operation name="geoLocationAddressCoordinatesLatLon" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/geoLocationAddressCoordinatesLatLon</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/geoLocationAddressCoordinatesLatLonResponse</outputActionMapping>
+        </operation>
+        <operation name="kadasterEigendomsBerichtPerceel" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPerceel</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kadasterEigendomsBerichtPerceelResponse</outputActionMapping>
+        </operation>
+        <operation name="addressReeksPhraseSearch" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/addressReeksPhraseSearch</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/addressReeksPhraseSearchResponse</outputActionMapping>
+        </operation>
+        <operation name="mapViewPostcodeV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/mapViewPostcodeV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/mapViewPostcodeV2Response</outputActionMapping>
+        </operation>
+        <operation name="kvkSearchDossierNumber" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/kvkSearchDossierNumber</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/kvkSearchDossierNumberResponse</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetLegalExtractDocumentDataV3" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetLegalExtractDocumentDataV3</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetLegalExtractDocumentDataV3Response</outputActionMapping>
+        </operation>
+        <operation name="dutchBusinessGetLegalExtractDocumentDataV2" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetLegalExtractDocumentDataV2</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/dutchBusinessGetLegalExtractDocumentDataV2Response</outputActionMapping>
+        </operation>
+        <operation name="userRemove" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userRemove</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userRemoveResponse</outputActionMapping>
+        </operation>
+        <operation name="carRDWCarData" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/carRDWCarData</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/carRDWCarDataResponse</outputActionMapping>
+        </operation>
+        <operation name="userAddGroup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.webservices.nl/soap/">
+            <actionMapping>https://ws1.webservices.nl/soap_doclit.php/userAddGroup</actionMapping>
+            <outputActionMapping>http://www.webservices.nl/soap/Webservices.nlPortType/userAddGroupResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

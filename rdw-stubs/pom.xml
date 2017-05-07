@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>rdw-parent</artifactId>
+        <groupId>com.rdw.companyinfo</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>rdw-stubs</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <generateDir>${basedir}/target/generated/</generateDir>
+        <wsdlDir>src\main\resources\wsdl\</wsdlDir>
+        <bindingDir>${basedir}/src/main/resources/wsdl/bindings/</bindingDir>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+	
+	<dependencies>
+	  <dependency>
+       <groupId>org.apache.axis2</groupId>
+        <artifactId>axis2-wsdl2code-maven-plugin</artifactId>
+        <version>1.7.4</version>
+       </dependency>
+       <dependency>
+          <groupId>org.apache.axis2</groupId>
+          <artifactId>axis2</artifactId>
+          <version>1.7.4</version>
+          <type>pom</type>
+       </dependency>
+       <dependency>
+          <groupId>org.apache.xmlbeans</groupId>
+          <artifactId>xmlbeans</artifactId>
+          <version>2.6.0</version>
+       </dependency>
+       <dependency>
+           <groupId>org.apache.ws.commons.axiom</groupId>
+           <artifactId>axiom-api</artifactId>
+           <version>1.2.20</version>
+       </dependency>
+	 </dependencies>
+	  
+	  
+
+    <build>
+         <resources>
+	      <resource>
+	        <directory>src/main/resources</directory>
+	      </resource>
+	      <resource>
+	       <directory>target/generated-sources/axis2/wsdl2code/resources</directory>
+	      </resource>
+	    </resources>
+        <plugins>
+            <!-- changed according to JAX-WS -->
+            <!--  <plugin>
+                <groupId>org.apache.axis2</groupId>
+                <artifactId>axis2-wsdl2code-maven-plugin</artifactId>
+                <version>1.7.4</version>
+                <executions>
+                    <execution>
+                        <id>soap_doclit</id>
+                        <goals>
+                            <goal>wsdl2code</goal>
+                        </goals>
+                        <configuration>
+                            <packageName>nl.webservices.soap</packageName>
+                            <wsdlFile>${wsdlDir}soap_doclit.wsdl</wsdlFile>
+                            <databindingName>xmlbeans</databindingName>
+                            <syncMode>sync</syncMode>
+                            <unpackClasses>true</unpackClasses>
+                            <generateServerSide>true</generateServerSide>
+                            <generateServicesXml>true</generateServicesXml>
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>javax.jws</groupId>
+                        <artifactId>jsr181-api</artifactId>
+                        <version>1.0-MR1</version>
+                    </dependency>
+                </dependencies>
+            </plugin> -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>1.10</version>
+                <executions>
+                    <execution>
+                        <id>soapsimple</id>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <sourceDestDir>${generateDir}</sourceDestDir>
+                            <wsdlDirectory>${wsdlDir}</wsdlDirectory>
+                            <bindingDirectory>${bindingDir}</bindingDirectory>
+                            <wsdlFiles>
+                                <wsdlFile>soapsimple.wsdl</wsdlFile>
+                            </wsdlFiles>
+                            <staleFile>${generateDir}wsdl.soapsimple.done</staleFile>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>soap_doclit</id>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <sourceDestDir>${generateDir}</sourceDestDir>
+                            <wsdlDirectory>${wsdlDir}</wsdlDirectory>
+                            <bindingDirectory>${bindingDir}</bindingDirectory>
+                            <wsdlFiles>
+                                <wsdlFile>soap_doclit.wsdl</wsdlFile>
+                            </wsdlFiles>
+                            <staleFile>${generateDir}wsdl.soap_doclit.done</staleFile>
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>javax.jws</groupId>
+                        <artifactId>jsr181-api</artifactId>
+                        <version>1.0-MR1</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

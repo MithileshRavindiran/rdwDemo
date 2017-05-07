@@ -1,0 +1,240 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building rdw-stubs 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ rdw-stubs ---
+[INFO] Deleting C:\otherWorkspaces\Spring Boot\rdwdemo\rdw-stubs\target
+[INFO] 
+[INFO] --- axis2-wsdl2code-maven-plugin:1.7.4:wsdl2code (soap_doclit) @ rdw-stubs ---
+Retrieving document at 'C:\otherWorkspaces\Spring Boot\rdwdemo\rdw-stubs\src\main\resources\wsdl\soap_doclit.wsdl'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rdw-stubs ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ rdw-stubs ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3732 source files to C:\otherWorkspaces\Spring Boot\rdwdemo\rdw-stubs\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[16,87] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[18,44] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[29,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[39,47] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[49,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[59,49] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[69,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[79,47] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[91,120] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[95,151] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[98,144] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[98,191] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[102,140] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[105,133] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[105,180] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[108,137] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[111,130] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[111,177] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[114,145] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[117,138] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[117,185] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[120,139] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[123,132] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[123,179] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[126,158] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[129,151] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[129,198] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[132,144] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[135,137] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[135,184] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[139,125] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[139,172] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[139,217] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[143,125] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[143,165] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[143,212] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[143,257] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[147,127] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[147,53] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[147,174] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[147,219] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,127] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,167] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,53] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,214] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,259] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[16,69] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[18,44] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[16,67] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessOrganizationReferenceV3.java:[16,82] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessAddressV3.java:[16,68] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[154,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[169,48] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[184,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[199,46] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[214,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[229,53] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[244,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[259,47] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessDateV3.java:[16,65] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[349,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[364,55] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[379,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[394,66] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[434,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[449,67] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[489,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[504,58] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[519,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[534,66] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/StringArray.java:[16,57] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[624,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[639,46] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[654,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[669,54] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[684,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[699,54] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[739,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[754,50] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[769,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[784,51] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[799,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[814,59] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[829,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[844,51] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[18,44] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[29,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[44,42] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[59,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[74,43] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[89,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[104,39] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[119,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[134,42] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[149,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[164,42] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[179,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[194,40] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[259,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[274,46] package org.apache.xmlbeans does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:30.772s
+[INFO] Finished at: Sat May 06 18:34:09 CEST 2017
+[INFO] Final Memory: 38M/1117M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project rdw-stubs: Compilation failure: Compilation failure:
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[16,87] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[18,44] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[29,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[39,47] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[49,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[59,49] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[69,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[79,47] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[91,120] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[95,151] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[98,144] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[98,191] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[102,140] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[105,133] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[105,180] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[108,137] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[111,130] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[111,177] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[114,145] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[117,138] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[117,185] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[120,139] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[123,132] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[123,179] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[126,158] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[129,151] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[129,198] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[132,144] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[135,137] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[135,184] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[139,125] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[139,172] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[139,217] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[143,125] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[143,165] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[143,212] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[143,257] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[147,127] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[147,53] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[147,174] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[147,219] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,127] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,167] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,53] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,214] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessGetExtractHistoryRequestType.java:[151,259] package org.apache.xmlbeans.xml.stream does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[16,69] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[18,44] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[16,67] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessOrganizationReferenceV3.java:[16,82] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessAddressV3.java:[16,68] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[154,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[169,48] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[184,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[199,46] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[214,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[229,53] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[244,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[259,47] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessDateV3.java:[16,65] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[349,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[364,55] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[379,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[394,66] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[434,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[449,67] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[489,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[504,58] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[519,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[534,66] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/StringArray.java:[16,57] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[624,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[639,46] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[654,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[669,54] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[684,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[699,54] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[739,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[754,50] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[769,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[784,51] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[799,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[814,59] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[829,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPositionV3.java:[844,51] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[18,44] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[29,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[44,42] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[59,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[74,43] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[89,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[104,39] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[119,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[134,42] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[149,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[164,42] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[179,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[194,40] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[259,24] package org.apache.xmlbeans does not exist
+[ERROR] /C:/otherWorkspaces/Spring Boot/rdwdemo/rdw-stubs/target/generated-sources/axis2/wsdl2code/src/nl/webservices/www/soap/DutchBusinessPersonV3.java:[274,46] package org.apache.xmlbeans does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
